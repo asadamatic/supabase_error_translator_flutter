@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Supabase Error Translator Flutter
 
 [![pub package](https://img.shields.io/pub/v/supabase_error_translator_flutter.svg)](https://pub.dev/packages/supabase_error_translator_flutter)
@@ -23,7 +22,7 @@ Add to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  supabase_error_translator_flutter: ^1.0.0
+  supabase_error_translator_flutter: ^1.0.2
 ```
 
 Use in your app:

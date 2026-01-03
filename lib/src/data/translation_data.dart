@@ -1,3 +1,4 @@
+import 'package:supabase_error_translator_flutter/src/data/translations/ar.dart';
 import 'package:supabase_error_translator_flutter/src/data/translations/cn.dart';
 import 'package:supabase_error_translator_flutter/src/data/translations/de.dart';
 import 'package:supabase_error_translator_flutter/src/data/translations/en.dart';
@@ -23,6 +24,7 @@ class TranslationData {
     'pl': polishTranslations,
     'pt': portugueseTranslations,
     'cn': chineseTranslations,
+    'ar': arabicTranslations,
   };
 
   /// Get translation for a specific error code.

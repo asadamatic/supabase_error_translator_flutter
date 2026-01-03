@@ -26,6 +26,9 @@ enum SupportedLanguage {
 
   /// Chinese (中文)
   cn,
+
+  /// Arabic (العربية)
+  ar,
 }
 
 /// Extension methods for [SupportedLanguage] enum.
@@ -51,6 +54,8 @@ extension SupportedLanguageExtension on SupportedLanguage {
         return 'pt';
       case SupportedLanguage.cn:
         return 'cn';
+      case SupportedLanguage.ar:
+        return 'ar';
     }
   }
 
@@ -75,6 +80,8 @@ extension SupportedLanguageExtension on SupportedLanguage {
         return 'Português';
       case SupportedLanguage.cn:
         return '中文';
+      case SupportedLanguage.ar:
+        return 'العربية';
     }
   }
 
@@ -99,6 +106,8 @@ extension SupportedLanguageExtension on SupportedLanguage {
         return SupportedLanguage.pt;
       case 'cn':
         return SupportedLanguage.cn;
+      case 'ar':
+        return SupportedLanguage.ar;
       default:
         return SupportedLanguage.en; // Default to English
     }
